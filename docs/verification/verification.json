@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-22",
+  "sdk": "6.1.9",
+  "device": "emulator-5554 / Pico_Emulator_6_1 (Android 16, arm64)",
+  "apk": "releases/SpatialXiangqi-v0.1.0-debug.apk",
+  "apk_sha256": "f9ef03c965aad94c3c8b35942a758e245256f0aa2847d0c61fa9e5e1a6d890fa",
+  "unit_tests": {"tests": 68, "failures": 0},
+  "machine_gates": "validate_workflow_and_build.sh: receipts, implementation scan, gradle sync, smoke build, runtime launch, architecture, unit tests, design-style — all PASS",
+  "verified_on_emulator": [
+    "first-run help sheet, wall board with ledge, status plaque, toolbar (壁挂/桌面 + 悔棋/提示/引擎/棋箱/摆放与显示/帮助), score-scroll subwindow",
+    "tap-tap move via the debug channel: selection ring + lift, legal dots, capture ring, last-move frames, engine reply, hint rings, eval rail",
+    "table mode (board flat at the volume floor), skins 紫檀/竹林/楚汉烽烟, English UI",
+    "box sheet: library (saved game row with 复盘/删除), new game (side/engine/level), import-export, settings; placement sheet; help sheet",
+    "review mode with engine lines and notes, setup palette, resign → result dialog, new game as black at level 5 (engine opened)"
+  ],
+  "not_verified": [
+    "real spatial taps / hand tracking / system window-handle placement (no spatial input on the emulator)",
+    "sound effects"
+  ]
+}
